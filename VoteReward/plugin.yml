@@ -1,0 +1,4 @@
+name: VoteReward
+main: random0ne.mc.VoteReward
+version: 1.0
+depend: [Votifier]

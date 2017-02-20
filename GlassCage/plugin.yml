@@ -1,0 +1,15 @@
+name: GlassCage
+main: random0ne.mc.GlassCage
+version: 1.1
+depend: [WorldEdit]
+commands:
+   glasscagefill:
+      description: fills Glass Cage with items depending on what's in your inventory
+      usage: /glasscagefill
+      permission: fillglasscage.fill
+      permission-message: You don't have permission to use this command!
+   glasscageinfo:
+      description: gives current item percentages or sets item percentages per row
+      usage: /glasscageinfo OR /glasscageinfo set [row] [percentage]
+      permission: fillglasscage.fill
+      permission-message: You don't have permission to use this command!

@@ -1,0 +1,10 @@
+name: MultiCommand
+main: random0ne.mc.MultiCommand
+version: 1.0
+commands:
+   lockdown:
+      aliases: ld
+      description: Runs several commands to simplify build transfering
+      usage: /lockdown [RegionName]
+      permission: multicommand.lockdown
+      permission-message: You don't have permission to use this command!
